@@ -6,13 +6,9 @@ module.exports = {
 };
 
 /**
- * test production deployment locally
-
- NODE_ENV=production \
- consumer_key= \
- consumer_secret= \
- access_token_key= \
- access_token_secret= \
- npm start
-
- */
+ now -e NODE_ENV=production \
+ -e consumer_key= \
+ -e consumer_secret= \
+ -e access_token_key= \
+ -e access_token_secret=
+*/

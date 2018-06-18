@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "micro"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/gcwelborn/fetch-recent-tweets-microservice#readme",
   "dependencies": {
-    "apicache": "^0.7.3",
-    "express": "^4.14.0",
-    "twitter": "^1.7.0"
+    "micro": "^9.3.2",
+    "micro-cors": "^0.1.0",
+    "twitter": "^1.7.1"
   }
 }
